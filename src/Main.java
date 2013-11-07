@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int ruleNo = 30;  // Must be number in range 0-255
 
-	    CellGrid cg = new CellGrid(400);
+        CellGrid cg = new CellGrid(400);
         SimpleWindow w = new SimpleWindow(800, 400, "Cellular Automaton");
         cg.generateAllRows(ruleNo);
         cg.draw(w);
